@@ -32,8 +32,8 @@ public class Handler {
         if(amount>0) VenderState = new HasMoneyState();
     }
     
-    void Dispense(){
-        VenderState.Dispense(amount, Product);
+    void Dispense(int price){
+        VenderState.Dispense(amount, Product,price);
         amount = 0;
         Product = "";
         VenderState = new NoMoneyState();

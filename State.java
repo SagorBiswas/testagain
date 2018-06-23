@@ -10,5 +10,5 @@ package vending_mechine;
  * @author SAGOR
  */
 public interface State {
-    public void Dispense(int amount,String product);
+    public void Dispense(int amount,String product, int price);
 }

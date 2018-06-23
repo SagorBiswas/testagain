@@ -12,7 +12,7 @@ package vending_mechine;
 public class NoMoneyState implements State{
 
     @Override
-    public void Dispense(int amount, String product) {
+    public void Dispense(int amount, String product, int price) {
         System.out.println("Insert a Coin Please");
     }
     

@@ -12,7 +12,7 @@ package vending_mechine;
 public class HasMoneyState implements State{
 
     @Override
-    public void Dispense(int amount, String product) {
+    public void Dispense(int amount, String product, int price) {
        
     }
     
