@@ -31,8 +31,8 @@ public class Vending_Mechine {
         handler.DepositandSelect(15,"fanta");
         handler.Dispense(30);
         
-        handler.DepositandSelect(100,"pepsil");
-        handler.Dispense(25);
+        handler.DepositandSelect(0,"pepsil");
+        handler.Dispense(-5);
         
     }
     
