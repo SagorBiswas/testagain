@@ -18,6 +18,22 @@ public class Vending_Mechine {
         // TODO code application logic here
         Handler handler = new Handler();
         
+        System.out.println("Current Mechine State: "+handler.getState().getClass().getName());
+        
+        handler.Dispense(20);
+        
+        handler.DepositandSelect(100,"pepsi");
+        handler.Dispense(25);
+        
+        handler.DepositandSelect(25,"pepsi");
+        handler.Dispense(25);
+        
+        handler.DepositandSelect(15,"fanta");
+        handler.Dispense(30);
+        
+        handler.DepositandSelect(100,"pepsil");
+        handler.Dispense(25);
+        
     }
     
 }
